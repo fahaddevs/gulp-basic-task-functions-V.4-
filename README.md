@@ -3,8 +3,7 @@
 **This file contains some basic functions for Gulp v.4**
 
 **Such as**
-*Such as 
-*gulp-sass
-*gulp-uglifycss
-*gulp-uglify
-*browser-sync
+*gulp-sass*
+*gulp-uglifycss*
+*gulp-uglify*
+*browser-sync*
