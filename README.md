@@ -9,7 +9,7 @@
 *browser-sync*
 
 You must install `NodeJs` in your computer
-Then install `Gulp` in your computer for global
+Then install `Gulp` in your computer for globally
 
 Code for Gulp global install
 `npm install gulp-cli -g`
@@ -22,8 +22,12 @@ Code for Gulp local install and add some package like `gulp-sass` and `browser-s
 `npm install --save-dev gulp gulp-sass browser-sync`
 
 Then create a new file that name will be must `gulpfile.js`
+If you want to minify css, you have to install `gulp-uglifycss` package ..  Link `https://www.npmjs.com/package/gulp-uglifycss` Or `npm install --save gulp-uglifycss`.......  If you want to minify js, you have to install `gulp-uglify ` package ..  Link `https://www.npmjs.com/package/gulp-uglify` Or `npm install --save-dev gulp-uglify`
 
 
+
+
+#Source code#
 ```javaScript
 
 const gulp = require('gulp');
